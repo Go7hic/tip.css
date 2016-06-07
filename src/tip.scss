@@ -38,6 +38,18 @@
 
         }
     }
+    &.primary {
+        background: #286090;
+    }
+    &.success {
+        background: #449d44;
+    }
+    &.warn {
+        background: #ec971f;
+    }
+    &.danger {
+        background: #c9302c;
+    }
     &.top {
         &:before {
             top: -5px;

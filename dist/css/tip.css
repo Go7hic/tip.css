@@ -34,6 +34,18 @@
   display: inline-block;
   text-decoration: none;
 }
+.tooltip.primary {
+  background: #286090;
+}
+.tooltip.success {
+  background: #449d44;
+}
+.tooltip.warn {
+  background: #ec971f;
+}
+.tooltip.danger {
+  background: #c9302c;
+}
 .tooltip.top:before {
   top: -5px;
   right: 50%;
