@@ -38,7 +38,7 @@ or you can use it in your input form:
 
 #### DEMO
 
-http://blog.yongyuan.us/tip.css/
+http://dyygtfx.github.io/tip.css
 
 #### license
 MIT
