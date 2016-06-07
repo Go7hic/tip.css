@@ -34,16 +34,16 @@
   display: inline-block;
   text-decoration: none;
 }
-.tooltip.primary {
+.tooltip.primary:after {
   background: #286090;
 }
-.tooltip.success {
+.tooltip.success:after {
   background: #449d44;
 }
-.tooltip.warn {
+.tooltip.warn:after {
   background: #ec971f;
 }
-.tooltip.danger {
+.tooltip.danger:after {
   background: #c9302c;
 }
 .tooltip.top:before {

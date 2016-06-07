@@ -1,13 +1,12 @@
 .tooltip {
     position: relative;
-
     &:before {
         position: absolute;
         z-index: 1000001;
         display: none;
         width: 0;
         height: 0;
-        color: rgba(0,0,0,0.8);
+        color: rgba(0, 0, 0, 0.8);
         pointer-events: none;
         content: "";
         border: 5px solid transparent
@@ -27,28 +26,34 @@
         white-space: pre;
         pointer-events: none;
         content: attr(aria-label);
-        background: rgba(0,0,0,0.8);
+        background: rgba(0, 0, 0, 0.8);
         border-radius: 3px;
-
     }
-    &:hover,&:active,&:focus{
-        &:before,&:after {
+    &:hover, &:active, &:focus {
+        &:before, &:after {
             display: inline-block;
             text-decoration: none;
-
         }
     }
     &.primary {
-        background: #286090;
+        &:after {
+            background: #286090;
+        }
     }
     &.success {
-        background: #449d44;
+        &:after {
+            background: #449d44;
+        }
     }
     &.warn {
-        background: #ec971f;
+        &:after {
+            background: #ec971f;
+        }
     }
     &.danger {
-        background: #c9302c;
+        &:after {
+            background: #c9302c;
+        }
     }
     &.top {
         &:before {
@@ -56,7 +61,7 @@
             right: 50%;
             bottom: auto;
             margin-right: -5px;
-            border-top-color: rgba(0,0,0,0.8);
+            border-top-color: rgba(0, 0, 0, 0.8);
         }
         &:after {
             right: 50%;
@@ -74,9 +79,8 @@
             right: -5px;
             bottom: 50%;
             margin-top: -5px;
-            border-right-color: rgba(0,0,0,0.8);
-
-    }
+            border-right-color: rgba(0, 0, 0, 0.8);
+        }
         &:after {
             top: 50%;
             left: 100%;
@@ -85,9 +89,7 @@
             -moz-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-
         }
-
     }
     &.bottom {
         &:before {
@@ -95,8 +97,7 @@
             right: 50%;
             bottom: -5px;
             margin-right: -5px;
-            border-bottom-color: rgba(0,0,0,0.8);
-
+            border-bottom-color: rgba(0, 0, 0, 0.8);
         }
         &:after {
             top: 100%;
@@ -106,15 +107,15 @@
             -moz-transform: translateX(50%);
             -ms-transform: translateX(50%);
             transform: translateX(50%);
-       }
+        }
     }
     &.left {
         &:before {
             right: 100%;
             bottom: 50%;
             margin-right: -5px;
-            border-left-color: rgba(0,0,0,0.8);
-           -webkit-transform: translateY(50%);
+            border-left-color: rgba(0, 0, 0, 0.8);
+            -webkit-transform: translateY(50%);
             -moz-transform: translateY(50%);
             -ms-transform: translateY(50%);
             transform: translateY(50%);
