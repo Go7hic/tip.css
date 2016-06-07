@@ -1,32 +1,34 @@
 # tip.css
 
-#### how to use
+#### usage
 
-top tip:
+npm install tip.css --save
+
+top:
 
 ```html
 <a href="" class="tooltip top" aria-label="top tip">top tip</a>
 ```
 
-right tip:
+right:
 
 ```html
 <a href="" class="tooltip right" aria-label="right tip">right tip</a>
 ```
 
-bottom tip:
+bottom:
 
 ```html
 <a href="" class="tooltip bottom" aria-label="bottom tip">bottom tip</a>
 ```
 
-left tip:
+left:
 
 ```html
  <a href="" class="tooltip left" aria-label="left tip">left tip</a>
 ```
 
-or you can use it on your input:
+or you can use it in your input form:
 
 ```html
 <label for="" class="tooltip top" aria-label="input your name">name: <input type="text" placeholder="top tip"></label>
