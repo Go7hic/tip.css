@@ -39,20 +39,32 @@
         &:after {
             background: #286090;
         }
+        &:before {
+            border-top-color: #286090;
+        }
     }
     &.success {
         &:after {
             background: #449d44;
+        }
+        &:before {
+            border-top-color: #449d44;
         }
     }
     &.warn {
         &:after {
             background: #ec971f;
         }
+        &:before {
+            border-top-color: #ec971f;
+        }
     }
     &.danger {
         &:after {
             background: #c9302c;
+        }
+        &:before {
+            border-top-color: #c9302c;
         }
     }
     &.top {
