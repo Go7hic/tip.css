@@ -39,32 +39,20 @@
         &:after {
             background: #286090;
         }
-        &:before {
-            border-top-color: #286090;
-        }
     }
     &.success {
         &:after {
             background: #449d44;
-        }
-        &:before {
-            border-top-color: #449d44;
         }
     }
     &.warn {
         &:after {
             background: #ec971f;
         }
-        &:before {
-            border-top-color: #ec971f;
-        }
     }
     &.danger {
         &:after {
             background: #c9302c;
-        }
-        &:before {
-            border-top-color: #c9302c;
         }
     }
     &.top {
@@ -74,6 +62,27 @@
             bottom: auto;
             margin-right: -5px;
             border-top-color: rgba(0, 0, 0, 0.8);
+        }
+        &.primary {
+            &:before {
+                border-top-color: #286090;
+            }
+        }
+        &.success {
+            &:before {
+                border-top-color: #449d44;
+            }
+        }
+        
+        &.warn {
+            &:before {
+                border-top-color: #ec971f;
+            }
+        }
+        &.danger {
+            &:before {
+                border-top-color: #c9302c;
+            }
         }
         &:after {
             right: 50%;
@@ -93,6 +102,27 @@
             margin-top: -5px;
             border-right-color: rgba(0, 0, 0, 0.8);
         }
+        &.primary {
+            &:before {
+                border-right-color: #286090;
+            }
+        }
+        &.success {
+            &:before {
+                border-right-color: #449d44;
+            }
+        }
+        
+        &.warn {
+            &:before {
+                border-right-color: #ec971f;
+            }
+        }
+        &.danger {
+            &:before {
+                border-right-color: #c9302c;
+            }
+        }
         &:after {
             top: 50%;
             left: 100%;
@@ -110,6 +140,27 @@
             bottom: -5px;
             margin-right: -5px;
             border-bottom-color: rgba(0, 0, 0, 0.8);
+        }
+         &.primary {
+            &:before {
+                border-bottom-color: #286090;
+            }
+        }
+        &.success {
+            &:before {
+                border-bottom-color: #449d44;
+            }
+        }
+        
+        &.warn {
+            &:before {
+                border-bottom-color: #ec971f;
+            }
+        }
+        &.danger {
+            &:before {
+                border-bottom-color: #c9302c;
+            }
         }
         &:after {
             top: 100%;
@@ -131,6 +182,27 @@
             -moz-transform: translateY(50%);
             -ms-transform: translateY(50%);
             transform: translateY(50%);
+        }
+        &.primary {
+            &:before {
+                border-left-color: #286090;
+            }
+        }
+        &.success {
+            &:before {
+                border-left-color: #449d44;
+            }
+        }
+        
+        &.warn {
+            &:before {
+                border-left-color: #ec971f;
+            }
+        }
+        &.danger {
+            &:before {
+                border-left-color: #c9302c;
+            }
         }
         &:after {
             top: 50%;
