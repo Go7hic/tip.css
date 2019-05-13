@@ -1,5 +1,7 @@
 # tip.css
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dyygtfx/tip.css.svg)](https://greenkeeper.io/)
+
 #### usage
 
 npm install tip.css --save
